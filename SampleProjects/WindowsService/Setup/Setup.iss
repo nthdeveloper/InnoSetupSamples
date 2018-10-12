@@ -59,6 +59,12 @@ Source: "SetupIcon.ico"; DestDir: "{app}"; Flags: ignoreversion
 [Icons]
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"; IconFilename: "{app}\SetupIcon.ico";
 
+[Run]
+Filename: "{app}\{#MyAppExeName}"; Parameters: "--install"; Flags: waituntilterminated runhidden; StatusMsg: "Registering service"
+
+[UninstallRun]
+Filename: "{app}\{#MyAppExeName}"; Parameters: "--uninstall"; Flags: waituntilterminated runhidden; StatusMsg: "Unregistering service"
+
 [Code]
 ////// INSTALLED CONTROL ///////////////////
 function GetUninstallString(): String;
