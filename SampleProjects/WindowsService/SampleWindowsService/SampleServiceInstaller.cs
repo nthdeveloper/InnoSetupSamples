@@ -12,7 +12,7 @@ namespace SampleWindowsService
     [RunInstaller(true)]
     public partial class SampleServiceInstaller : System.Configuration.Install.Installer
     {
-        public const string SERVICE_NAME = "SampleWindowsService";
+        public const string SERVICE_NAME = "Sample Windows Service";
 
         private readonly ServiceProcessInstaller serviceProcessInstaller;
         private readonly ServiceInstaller serviceInstaller;
