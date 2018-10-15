@@ -7,4 +7,4 @@ Sample setup wizard screenshot
 
 ![Sample setup wizard screenshot](Docs/first_page.png)
 
-![Sample EULA wizard page](/Docs/eula_page.png)
+![Sample EULA wizard page](Docs/eula_page.png)
