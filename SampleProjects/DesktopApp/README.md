@@ -5,6 +5,6 @@ Setup wizard also displays a license agreement page with a sample licence agreem
 
 Sample setup wizard screenshot
 
-![Sample setup wizard screenshot](/Docs/first_page.png)
+![Sample setup wizard screenshot](Docs/first_page.png)
 
 ![Sample EULA wizard page](/Docs/eula_page.png)
